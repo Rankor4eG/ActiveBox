@@ -1,0 +1,44 @@
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  color: #6c7279;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+a{
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+}
+
+h1,h2,h3,h4,h5,h6,p,div,span{
+  margin: 0;
+  padding: 0;
+}
+
+// Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+// @media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) { ... }
